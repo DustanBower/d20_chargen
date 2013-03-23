@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./npc-gen --favor str dex con --hitdie 8 --good_saves fort --base_attack fighter $@

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./npc-gen --favor int wis cha --hitdie 6 --good_saves will --base_attack rogue $@

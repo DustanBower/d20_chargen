@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./npc-gen --favor int wis cha --hitdie 4 --base_attack wizard $@
