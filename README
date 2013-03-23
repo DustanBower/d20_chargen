@@ -1,11 +1,11 @@
 When prepping for a game, I came up with the idea of writing a quick and dirty character generator for 3.5, mainly for NPC purposes.  The original plan would have had full gear and feats and whatnot, but was too much trouble and not that interesting, so I stopped working on it.  I recently rediscovered the code and found that the generation of NPC classes (aristocrat, commoner, etc.) works fine and figured I'd clean it up a bit in case others found it useful.
 
-usage (for a level 5 commoner):
-./npc-commoner 5
+usage (for a level 5 aristocrat):
+./npc-aristocrat 5
 
 
 The npc-[npc-class] scripts all call npc-gen with variable options.  For example,
-npc-commoner 5 is just:
+npc-aristocrat 5 is just:
 
 ./npc-gen --favor int wis cha --hitdie 8 --good_saves will --base_attack rogue 5
 
